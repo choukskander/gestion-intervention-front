@@ -1,0 +1,40 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('/public/home4.webp') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.home .content {
+  text-align: center;
+  color: #fff;
+}
+
+.home .content h3 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  padding-bottom: 2rem;
+}
+
+.home .btn {
+  display: inline-block;
+  background-color: #ff6347;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.home .btn:hover {
+  background-color: #ff4500;
+}

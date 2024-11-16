@@ -1,0 +1,491 @@
+.admin-container {
+  max-width: 1000px;
+  margin: 40px auto; /* Increase margin for spacing */
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+.admin-container h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.interventions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.interventions-table th,
+.interventions-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+.interventions-table th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.interventions-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.interventions-table tr:hover {
+  background-color: #eaf2f8;
+}
+
+.interventions-table td button {
+  padding: 8px 12px;
+  margin: 0 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.interventions-table td button:first-of-type {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.interventions-table td button:first-of-type:hover {
+  background-color: #c0392b;
+}
+
+.interventions-table td button:last-of-type {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.interventions-table td button:last-of-type:hover {
+  background-color: #2980b9;
+}
+
+.edit-form-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #eef;
+  border-radius: 8px;
+}
+.interventions-table th, .interventions-table td {
+padding: 20px; /* Increase padding for more vertical space */
+font-size: 16px; /* Increase font size for readability */
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+.interventions-table th {
+background-color: #3498db;
+color: #fff;
+font-size: 18px; /* Slightly larger header font size */
+}
+
+.interventions-table tr {
+height: 50px; /* Set a minimum row height */
+}
+
+.interventions-table tr:hover {
+background-color: #eaf2f8;
+}
+
+/* Optional: add more spacing around the table */
+
+/* ... (Code CSS précédent) ... */ 
+
+/* AddClientForm Styles */
+
+.add-client-form {
+max-width: 400px;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+margin: 20px auto;
+}
+
+.add-client-form h3 {
+text-align: center;
+color: #333;
+font-size: 20px;
+margin-bottom: 15px;
+}
+
+.add-client-form div {
+margin-bottom: 10px;
+}
+
+.add-client-form label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+.add-client-form input[type="text"], 
+.add-client-form input[type="tel"], 
+.add-client-form input[type="email"],
+.add-client-form select {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+.add-client-form button {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+margin-right: 10px;
+transition: background-color 0.3s ease;
+}
+
+.add-client-form button[type="submit"] {
+background-color: #3498db;
+color: #fff;
+}
+
+.add-client-form button[type="submit"]:hover {
+background-color: #2980b9;
+}
+
+.add-client-form button[type="button"] {
+background-color: #e74c3c;
+color: #fff;
+}
+
+.add-client-form button[type="button"]:hover {
+background-color: #c0392b;
+}
+
+.admin-container2 {
+width: 1000px;
+height: 100%;
+top: 0;
+left: 500px;
+margin: auto; 
+padding: 30px;
+background-color: #f9f9f9;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.admin-container2 h2 {
+  
+text-align: center;
+color: #333;
+font-size: 24px;
+margin-bottom: 20px;
+}
+.admin-container {
+
+position: fixed;
+height: 100%;
+top: 0;
+left: 450px;
+max-width: 1000px;
+margin: auto; 
+padding: 30px;
+background-color: #f9f9f9;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+overflow-y: auto;
+}
+
+.admin-container h2 {
+  
+text-align: center;
+color: #333;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.clients-table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 20px;
+font-family: Arial, sans-serif;
+}
+
+.clients-table th,
+.clients-table td {
+padding: 20px; 
+font-size: 16px; 
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+.clients-table th {
+background-color: #3498db;
+color: #fff;
+font-size: 18px; 
+}
+
+.clients-table tr {
+height: 50px; 
+}
+
+.clients-table tr:hover {
+background-color: #eaf2f8;
+}
+
+.clients-table td button {
+padding: 8px 12px;
+margin: 0 5px;
+font-size: 14px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.clients-table td button:first-of-type {
+background-color: #e74c3c;
+color: #fff;
+}
+
+.clients-table td button:first-of-type:hover {
+background-color: #c0392b;
+}
+
+.clients-table td button:last-of-type {
+background-color: #3498db;
+color: #fff;
+}
+
+.clients-table td button:last-of-type:hover {
+background-color: #2980b9;
+}
+
+/* AddClientForm Styles (these are the same as the previous example) */
+.add-client-form {
+max-width: 400px;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+margin: 20px auto;
+}
+
+.add-client-form h3 {
+text-align: center;
+color: #333;
+font-size: 20px;
+margin-bottom: 15px;
+}
+
+.add-client-form div {
+margin-bottom: 10px;
+}
+
+.add-client-form label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+.add-client-form input[type="text"], 
+.add-client-form input[type="tel"], 
+.add-client-form input[type="email"],
+.add-client-form select {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+.add-client-form button {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+margin-right: 10px;
+transition: background-color 0.3s ease;
+}
+
+.add-client-form button[type="submit"] {
+background-color: #3498db;
+color: #fff;
+}
+
+.add-client-form button[type="submit"]:hover {
+background-color: #2980b9;
+}
+
+.add-client-form button[type="button"] {
+background-color: #e74c3c;
+color: #fff;
+}
+
+.add-client-form button[type="button"]:hover {
+background-color: #c0392b;
+}
+/* ... (Code CSS précédent) ... */
+
+.add-client-button {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+background-color: #3498db;
+color: #fff;
+transition: background-color 0.3s ease;
+}
+
+.add-client-button:hover {
+background-color: #2980b9;
+}
+
+/* ... (Rest of your CSS) ... */
+/* ... (Code CSS précédent) ... */ 
+
+/* AddContactForm Styles */
+.add-contact-form {
+max-width: 400px;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+margin: 20px auto;
+}
+
+.add-contact-form h3 {
+text-align: center;
+color: #333;
+font-size: 20px;
+margin-bottom: 15px;
+}
+
+.add-contact-form div {
+margin-bottom: 10px;
+}
+
+.add-contact-form label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+.add-contact-form input[type="text"], 
+.add-contact-form input[type="tel"], 
+.add-contact-form input[type="email"],
+.add-contact-form select {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+.add-contact-form button {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+margin-right: 10px;
+transition: background-color 0.3s ease;
+}
+
+.add-contact-form button[type="submit"] {
+background-color: #3498db;
+color: #fff;
+}
+
+.add-contact-form button[type="submit"]:hover {
+background-color: #2980b9;
+}
+
+.add-contact-form button[type="button"] {
+background-color: #e74c3c;
+color: #fff;
+}
+
+.add-contact-form button[type="button"]:hover {
+background-color: #c0392b;
+}
+
+/* ... (Rest of your CSS) ... */
+.charts-container {
+display: flex;
+justify-content: space-around;
+margin-bottom: 20px;
+}
+
+.chart {
+width: 30%; /* Each chart takes 30% of the width */
+padding: 10px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.button-container {
+display: flex;
+justify-content: space-between; /* espace entre les boutons */
+}
+
+.delete-button {
+background-color: #ff4d4d; /* rouge */
+color: white;
+border: none;
+padding: 8px 12px;
+cursor: pointer;
+margin-right: 8px; /* espace entre les boutons */
+}
+
+.edit-button {
+background-color: #4da6ff; /* bleu */
+color: white;
+border: none;
+padding: 8px 12px;
+cursor: pointer;
+}
+
+.delete-button:hover {
+background-color: #ff3333; /* rouge foncé au survol */
+}
+
+.edit-button:hover {
+background-color: #3399ff; /* bleu foncé au survol */
+}
+
+.meeting-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.close-meeting-button {
+  margin-top: 10px;
+  background-color: #f44336;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.meeting-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 5px;
+}

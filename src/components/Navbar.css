@@ -1,0 +1,86 @@
+/* Conteneur principal de la navbar */
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1000;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; /* Center the entire content of the navbar */
+    box-sizing: border-box;
+}
+
+/* Style de la navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Set a maximum width for the navbar content */
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+/* Logo aligné à gauche */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Forces the logo to stay on the left */
+}
+
+.navbar-brand img {
+    max-height: 50px;
+    transition: transform 0.4s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.05);
+}
+
+/* Liste de navigation centrée */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto; /* Center the navbar items */
+    padding: 0;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 30px;
+}
+
+.navbar-nav .nav-link {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
+    background-color: #007bff;
+}
+
+/* Menu déroulant */
+.navbar-nav .nav-item select {
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Effet de réduction lors du scroll */
+.navbar-container.scrolled {
+    background-color: #ffffff;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    padding: 5px 40px;
+}

@@ -1,0 +1,50 @@
+.container2 {
+  display: flex; 
+  justify-content: center;
+  align-items: flex-start; /* Align content to the top */
+  min-height: 80vh;
+  padding-top: 20px; /* Reduce or remove this padding */
+  background-color: #f8f8f8; 
+}
+
+.card {
+  width: 1000px; /* Adjust width as needed */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  margin-top: 20px; /* Add a small margin if needed */
+}
+
+.card-body {
+  padding: 30px; /* Add some padding */
+}
+
+h2.card-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.8rem; /* Adjust text size if needed */
+}
+
+
+/* Styles pour le tableau */
+.table {
+  width: 100%;
+  margin: 0 auto; /* Centrer le tableau */
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Bandes pour les lignes */
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #f2f2f2;
+}
+
+/* Ajouter un effet de survol pour améliorer l'apparence */
+.table tbody tr:hover {
+  background-color: #eaf2f8;
+}
